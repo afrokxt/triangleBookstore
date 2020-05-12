@@ -1,0 +1,21 @@
+/*Main CSS editor*/
+/*All elements*/
+* {
+  box-sizing: border-box;
+  font: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* GENERAL */
+
+/* NAVBAR */
+.navLogo {
+  width: 200px;
+}
+.navList {
+  list-style: none;
+}
+.navListItem {
+  display: inline-block;
+}
+/* MAIN SECTION */
+/* FOOTER */

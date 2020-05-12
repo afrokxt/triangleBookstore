@@ -1,0 +1,78 @@
+/*Main CSS editor*/
+/*All elements*/
+* {
+  box-sizing: border-box;
+  font: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/*Form*/
+.formContainer {
+  margin-top: 5vh;
+}
+.formContainer form input {
+  padding: 5px 10px 5px;
+  margin-bottom: 0.7rem;
+  width: 50%;
+  margin-left: 25%;
+  border: none;
+  border-bottom: 1px solid rgb(122, 122, 122);
+}
+.formContainer form textarea {
+    padding: 5px 10px 5px;
+    margin-bottom: 0.7rem;
+    width: 50%;
+    margin-left: 25%;
+    display: block;
+    border: none;
+  border-bottom: 1px solid rgb(122, 122, 122);
+}
+.formContainer form input[type=checkbox]{
+  width: 20px;
+  margin-bottom: 1rem;
+
+}
+.select {
+  width: 50%;
+  margin-left: 25%;
+  padding: 5px 10px 5px;
+  margin-bottom: 0.7rem;
+  border: none;
+}
+.formButton {
+  padding: 5px 10px;
+  display: block;
+  width: 30%;
+  margin-left: 35%;
+  background-color: rgb(0, 0, 0);
+  border-radius: 3px;
+  color: white;
+  border: none;
+}
+.formButton:hover {
+  transition: background-color 0.45s, color 0.45s;
+  background-color: rgb(54, 218, 204);
+  color: black;
+}
+.titleSection {
+  margin-top: 10vh;
+  position: relative;
+}
+.title {
+  font-size: 3rem;
+  font-weight: 400;
+  margin: 2px 2px;
+}
+.titleSection .title {
+  text-align: center;
+}
+.formLink {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+.formLink:first-child {
+  margin-left: 20%;
+  margin-right: 1rem;
+}
+.formLink:hover {
+    text-decoration: none;
+}
