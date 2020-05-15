@@ -65,10 +65,10 @@ TODO:
 
         <!--AGE-->
         <input
-          name="age"
-          id="age"
+          name="DOB"
+          id="DOB"
           class="formInput"
-          type="number"
+          type="date"
           placeholder="Age"
         />
         <br />
@@ -79,7 +79,7 @@ TODO:
           id="pwd"
           class="formInput"
           type="password"
-          placeholder="Password"
+          placeholder="Password 6+ charcters, at least; 1 capital letter, 1 lowercase letter, 1 number"
         />
         <br />
 
